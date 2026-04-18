@@ -4,6 +4,4 @@
 # Google OAuth credentials (never commit real credentials)
 resources/google-credentials.json
 
-# Keep output folder tracked but ignore generated reports
-# (remove the line below if you want reports committed to git)
-output/*.md
+# output/ reports are committed to git for history
