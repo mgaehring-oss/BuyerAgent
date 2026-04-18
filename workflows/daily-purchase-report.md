@@ -72,7 +72,17 @@ For each unique chemical in the master list:
 
 6. Select the **top 3 vendors** and write a **2–3 sentence justification** for the #1 recommendation citing longevity, location, drop shipping, pricing, and certifications
 
-## Step 6 — Generate Report
+## Step 6 — Label and Archive Processed Emails
+
+For each email confirmed as a customer purchase request in Step 2:
+
+1. **Apply the label "customer processed"** using the Gmail MCP
+   - If the label does not exist yet, create it first, then apply it
+2. **Archive the email** (remove it from the inbox) — this moves it out of the inbox without deleting it
+
+Do this for every qualifying email before generating the report. If labeling or archiving fails for any email, note the failure in the report but continue processing the remaining emails.
+
+## Step 7 — Generate Report
 
 Using the template at `resources/report-template.md`, populate a complete report with:
 - Today's date
@@ -80,7 +90,7 @@ Using the template at `resources/report-template.md`, populate a complete report
 - A vendor recommendation section for each unique chemical
 - A consolidation savings section for chemicals with multiple clients
 
-## Step 7 — Save Report
+## Step 8 — Save Report
 
 Save the completed report to:
 ```
